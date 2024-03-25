@@ -213,7 +213,7 @@ def train(model: torch.nn.Module,
 
 
 train_results = train(model_0, train_custom_dataloader,
-                      test_custom_dataloader, loss_fn, optimizer, epochs=30)
+                      test_custom_dataloader, loss_fn, optimizer, epochs=40)
 
 MODELS_PATH = Path("models/")
 MODELS_PATH.mkdir(parents=True, exist_ok=True)
