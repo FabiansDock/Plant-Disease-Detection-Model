@@ -5,7 +5,7 @@ import torch
 from torchvision import transforms, io
 from torch import nn
 import matplotlib.pyplot as plt
-from architecture import TinyVGG
+from utilities.architecture import TinyVGG
 
 class_names = ['mango', 'tomato']
 device = "cuda" if torch.cuda.is_available() else "cpu"
