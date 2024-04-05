@@ -1,13 +1,13 @@
 # Graphics Card
-  - NVIDIA RTX 3050
+- NVIDIA RTX 3050
 # Training data:
-	Grape: esca(3007 images), healthy(3061), leaf blight(3017)
-	Mango: anthracnose(2240 images), healthy(2239), powdery mildew(1745)
-	Tomato: bacterial spot(3955 images), healthy(2450 ), yellow leaf curl (4160)
+- Grape: esca(3007 images), healthy(3061), leaf blight(3017)
+- Mango: anthracnose(2240 images), healthy(2239), powdery mildew(1745)
+- Tomato: bacterial spot(3955 images), healthy(2450 ), yellow leaf curl (4160)
 # Testing data;
-	Grape: esca(27 images), healthy(27), leaf blight(27)
-	Mango: anthracnose(27 images), healthy(27), powdery mildew(27)
-	Tomato: bacterial spot(27 images), healthy(27 ), yellow leaf curl (27)
+- Grape: esca(27 images), healthy(27), leaf blight(27)
+- Mango: anthracnose(27 images), healthy(27), powdery mildew(27)
+- Tomato: bacterial spot(27 images), healthy(27 ), yellow leaf curl (27)
 
 # Models
   - plant_category: detects whether the leaf is either tomato, mango or grapes.
@@ -20,17 +20,24 @@
   - Used the PyTorch domain library TorchVision to transform the data to tensors
 
 # Model Architecture
-      TinyVGG architecture
-            3 convolutional blocks (3 convolutional layers, 2 max pool layers)
-            1 classifier layer (Linear layer)
+TinyVGG architecture
+    3 convolutional blocks (3 convolutional layers, 2 max pool layers)
+    1 classifier layer (Linear layer)
+	    
 # Optimizer
-     - Adam 			
+- Adam 	
+     
 #Loss function
-     - Cross Entropy Loss
-# Loss and Accuracy Plots
+- Cross Entropy Loss
+
+# Loss and Accuracy Plots for models
+## Plant category 
 ![Image Alt Text](loss_accuracy_plots/preds_plant_category.png)
+##Tomato
 ![Image Alt Text](loss_accuracy_plots/preds_tomato.png)
+## Mango
 ![Image Alt Text](loss_accuracy_plots/preds_mango.png)
+## Grape
 ![Image Alt Text](loss_accuracy_plots/preds_grape.png)
 
 # Tran-Test Stats
