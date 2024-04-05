@@ -15,15 +15,16 @@
   - mango_disease_category
   - grape_disease_category
 
-# Setup
+# Initial Setup
   - Updated the NVIDIA graphics drivers and installed NVIDIA CUDA toolkit.
-  - Used the PyTorch domain library TorchVision to transform the data to tensors
+  - Installed android studio and tested app on android emulator. 
 
 # Model Architecture
+```
 TinyVGG architecture
     3 convolutional blocks (3 convolutional layers, 2 max pool layers)
     1 classifier layer (Linear layer)
-	    
+```	    
 # Optimizer
 - Adam 	
      
