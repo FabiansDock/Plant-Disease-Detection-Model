@@ -1,3 +1,7 @@
+# Model architecture used
+
+![.](/assets/tinyvgg_architecture.png)
+
 # Graphics Card
 - NVIDIA RTX 3050
 # Training data:
